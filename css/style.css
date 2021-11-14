@@ -5,12 +5,38 @@
 }
 
 .page-container{
+    width: 100vw;
     height: 100vh;
     background: black;
+    padding: 50px;
     display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
 }
+.p-pic{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    margin: 3px;
+}
+.pic{
+    width: 250px;
+    height: 150px;
+}
 
+.username{
+    background: black;
+    opacity: 0.3;
+    color: white;
+    position: absolute;
+    z-index: 1001;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+/* 
 footer{
     display: flex;
     align-items: flex-end;
@@ -41,4 +67,4 @@ footer{
 
 .bottom-menu .right{
     background: #4A4A4A;
-}
+} */
